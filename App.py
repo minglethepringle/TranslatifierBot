@@ -32,7 +32,7 @@ def check_comment(comment):
         translated = translate(submission_text)
         if(len(translated) == 0): return
         try:
-            comment.reply(translated + "\n***\n^(Beep boop. I am a bot. Contact my) [^(owner)](https://www.reddit.com/u/iidatkat) ^(for any issues.)")
+            comment.reply(translated + "\n***\n^(Beep boop. I am a bot. Here's my) [^(owner.)](https://www.reddit.com/u/iidatkat) ^(Here's my) [^(source code.)](https://github.com/minglethepringle/TranslatifierBot)")
         except:
             print("Reddit API limitation – try again later.")
 
