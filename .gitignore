@@ -1,0 +1,6 @@
+.vscode/
+venv/
+translate.py
+.DS_Store
+/*.DS_Store
+praw.ini
